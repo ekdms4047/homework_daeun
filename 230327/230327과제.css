@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body{
+  font-family:'나눔고딕','맑은 고딕', sans-serif;
+  background-color:lightgoldenrodyellow;
+}
+.box1 {
+  text-align: center;
+  background-color:lightpink;
+}
+.txt1 {
+  text-align: center;
+  background-color:brown;
+  color:white;
+}
+.title1 {
+  color:darkgreen;
+  text-decoration: underline;
+
+}
+.title2 {
+  font-size: small;
+  color:red;
+}
+.title3 {
+  font-size:x-large;
+  font-weight: bold;
+  color:white;
+  background-color:firebrick;
+  line-height:1.7;
+
+}
+.box2 {
+  background-color:
+}
+.txt2 {
+  text-align: center;
+  color:darkgreen;
+  font-size:x-large;
+  font-weight: bold;
+  text-decoration: underline;
+
+} 
+.deco {
+  text-align: right;
+  background-color:orangered;
+  font-weight: bold;
+  font-size: large;
+  color:darkgreen;
+}
+.title4 {
+  background-color: blueviolet;
+}
+.deco2 {
+  color:red;
+}
+
