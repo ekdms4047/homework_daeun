@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>테이블 스타일 연습 2</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    table {  
+      margin: 0 auto;
+      border-collapse: collapse;
+      border: 1px solid #222 ;
+    }
+    tbody {
+
+    }
+    table tr td {
+      border: 1px solid #222;
+      padding: 15px 25px;
+      background-color: rgb(127, 212, 127);
+    }
+    .color {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>테이블 스타일 연습 2</h1>
+  <table>
+    <tbody>
+    <caption>소</caption>
+    <tr><!--1행-->
+      <td>소머리</td>
+      <td>목심</td>
+      <td>등심
+        <br>(살치살<a href="#"> · 꽃등심</a>)
+      </td>
+      <td>채끝살</td>
+      <td>우둔<br>(홍두깨살)</td>
+    </tr>
+    <tr><!--2행-->
+      <th rowspan="4"><p></p></th>
+      <td rowspan="2">앞다리살<br>(부채살)</td>
+      <td>갈비<br>(안창살 · 제비추리)</td>
+      <td>안심</td>
+      <td rowspan="2">설도<br>(도가니살)</td>
+    </tr>
+    <tr><!--3행-->
+      <td colspan="2">양지<br>(차돌박이 · 우삼겹)</td>
+    </tr>
+    <tr><!--4행-->
+      <td>사태</td>
+      <th colspan="2"></th>
+      <td>사태<br>(아롱사태)</td>
+    </tr>
+    <tr><!--5행-->
+      <td class="color">우족</td>
+      <th colspan="2"></th>
+      <td class="color">우족</td>
+    </tr>
+  </tbody>
+  </table>
+</body>
+</html>
