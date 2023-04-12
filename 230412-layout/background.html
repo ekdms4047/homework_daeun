@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>backgroundEx</title>
+    <style>
+.container {
+    border: 4px solid #000;
+    border-radius: 40px;
+    margin: 30px auto;
+    width: 690px; height: 350px;  
+}
+input {
+    font-size: 36px;
+    width: 450px; height: 65px;
+    border-radius: 50px;
+    padding-left: 70px;
+    margin: 15px;
+    box-sizing: border-box;
+    background-color: #FCC8D1;
+}
+input:focus {
+    background-color: #D14D72;
+}
+#Name {
+    background-image: url(./images/free-icon-user-5309035.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 20px 50%;
+    margin:60px 120px 0 120px;
+}
+#email {
+    background-image: url(./images/free-icon-email-747314.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 20px 50%;
+    margin: 15px 120px 0 120px;
+}
+#number {
+    background-image: url(./images/free-icon-smartphone-call-15874.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 20px 50%;
+    margin: 15px 120px 0 120px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+     <input type="text" name="userName" id="Name" placeholder="이름을 입력하세요">
+     <input type="email" name="userEmail" id="email" placeholder="이메일을 입력하세요">
+     <input type="number" name="userNumber" id="number" placeholder="연락처를 입력하세요">
+    </div>
+</body>
+</html>
