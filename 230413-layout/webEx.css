@@ -1,0 +1,85 @@
+@charset "utf-8";
+body,h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+  width: 940px;
+}
+main {
+  width: 650px; height: 600px;
+  background-color: antiquewhite;
+}
+header { /* 높이: 130px; */
+  background-color: #7d1e6a ;
+  color: #fff;
+  /* padding: 30px 130px; */
+  height: 90px;
+  padding: 20px 130px;
+}
+main .container1 {
+  background-color: #ffcd38 ;
+  width: 940px; 
+  height: 40px; line-height: 40px;
+  margin: 0;
+  padding-left: 0;
+}
+main .container1 li {
+  list-style: none;
+}
+main .container1 a {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  float: left;
+  color:#7d1e6a;
+  padding:0 40px 0 20px;
+}
+article {
+  background-color:;
+  width:;
+}
+article .box1 {
+  border: 2px solid red;
+  width: 300px; height: 230px;
+  float: left;
+  margin: 30px 20px 20px 20px ;
+  background:url(./images/vegetable.jpg)
+}
+
+article .box1 h2 {
+  width: 120px;
+  float: left;
+  margin: 30px 0 0 0;
+}
+article h3 {
+  overflow: hidden;
+  color:red;
+  width: 300px;
+  margin-left: 30px ;
+}
+article .box2 {
+  border: 2px solid red;
+  width: 300px; height: 230px;
+  overflow: hidden;
+  margin: 30px 20px 20px 20px ;
+  background:url(./images/sauce.jpg);
+}
+aside h2 {
+  width: 150px;
+  float: left;
+  
+}
+
+aside {
+  width: 290px; height: 600px;
+  float: left;
+}
+
+footer {
+  background-color: #7d1e6a;
+  color:#fff;
+  padding: 10px;
+  
+}
+footer p {
+  margin: 0;
+}
