@@ -32,8 +32,6 @@ header nav img:last-child {
 
 /* container */
 main .container {
-  /* box-sizing: border-box; */
-  height: 110vh;
   padding: 100px 0;
   display: grid;
   place-items: center;
@@ -88,13 +86,11 @@ main .container ul li:first-child::after {
 
 /* introduce */
 .introduce {
-  height: 90vh;
   padding: 25px;
 }
 .introduce .txt_box {
   color: var(--txt-main-color);
   border-left: 1px solid #ddd;
-  height: 80vh;
   margin-top: 15px;
 }
 .introduce .txt_box h3 {
@@ -149,8 +145,6 @@ main .container ul li:first-child::after {
 /* business */
 .business {
   text-align: center;
-  /* display: grid; */
-  height: 300vh;
   padding: 50px 30px;
 }
 .business .text_box {
@@ -191,7 +185,6 @@ main .container ul li:first-child::after {
 /* youtube */
 .youtube_box {
   background-color: var(--bg-color);
-  height: 65vh;
 }
 .youtube_box .youtube {
   padding: 50px 45px;
@@ -215,8 +208,7 @@ main .container ul li:first-child::after {
 }
 /* service */
 .service {
-  height: 85vh;
-  padding: 30px;
+  padding: 30px 30px 70px 30px;
   color: var(--txt-main-color);
 }
 .service h1 {
@@ -259,7 +251,6 @@ main .container ul li:first-child::after {
 /* client */
 .client {
   background-color: var(--bg-color);
-  height: 60vh;
   padding: 70px 50px;
 }
 .client .client_box {
@@ -335,18 +326,17 @@ main .container ul li:first-child::after {
 /* talk */
 .talk {
   padding: 40px;
-  height: 40vh;
   background: linear-gradient(
       rgba(105, 169, 197, 0.8),
       rgba(105, 169, 197, 0.9)
     ),
-    url(./images_2/img-bg.jpg) no-repeat 45%;
+    url(./images/img-bg.jpg) no-repeat 45%;
 }
 .talk .talk_box {
   text-align: center;
   font-family: var(--main-font);
   color: #fff;
-  height: 30vh;
+  padding-bottom: 10px;
 }
 .talk .talk_box h2 {
   font-size: var(--font-size-36);
@@ -365,7 +355,7 @@ main .container ul li:first-child::after {
   border-radius: 2px;
   padding: 10px 25px;
   font-family: var(--sub-font);
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-18);
   font-weight: 700;
   letter-spacing: 2px;
   transition: 0.5s;
