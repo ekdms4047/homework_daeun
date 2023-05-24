@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+/* 변수 선언 */
+:root {
+  --font-size-14: 0.875rem;
+  --font-size-15: 0.938rem;
+  --font-size-16: 1rem;
+  --font-size-17: 1.063rem;
+  --font-size-18: 1.125rem;
+  --font-size-20: 1.25rem;
+  --font-size-24: 1.5rem;
+  /* 36.05px */
+  --font-size-36: 2.253rem;
+  /* 50.3167px */
+  --font-size-50: 3.145rem;
+
+
+  --bg-color: rgba(248, 249, 250);
+  --txt-main-color:rgb(33, 37, 41);
+  --txt-sub-color:rgba(0, 0, 0, 0.5) ;
+
+  --main-font: 'Montserrat', -apple-system, BlinkMacSystemFont,
+  "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+
+  --sub-font: 'Noto Sans KR', -apple-system, BlinkMacSystemFont,
+  "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  
+}
+#007aff
