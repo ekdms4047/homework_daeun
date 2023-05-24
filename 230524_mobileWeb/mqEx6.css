@@ -161,7 +161,8 @@ main .container ul li:first-child::after {
   display: block;
   border: 1px solid #222;
   font-weight: 300;
-  margin: 30px 190px 30px;
+  margin: 30px auto;
+  width: 50px;
 }
 .business .text_box p {
   line-height: 1.7;
@@ -223,7 +224,8 @@ main .container ul li:first-child::after {
   display: block;
   border: 1px solid #222;
   font-weight: 300;
-  margin: 40px 190px 0;
+  margin: 30px auto;
+  width: 50px;
 }
 .service figure {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -245,7 +247,6 @@ main .container ul li:first-child::after {
   font-family: var(--sub-font);
   padding: 20px 20px;
   line-height: 1.7;
-  background-color: var(--bg-color);
 }
 
 /* client */
