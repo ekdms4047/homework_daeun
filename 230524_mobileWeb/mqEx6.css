@@ -368,7 +368,6 @@ main .container ul li:first-child::after {
 /* dyami */
 .dyami {
   background-color: var(--bg-color);
-  height: 75vh;
   padding: 20px 0 120px 0;
 }
 .dyami img {
